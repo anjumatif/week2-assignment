@@ -1,0 +1,30 @@
+.thumbnails {
+  height: 10vh;
+  width: 100vw;
+}
+
+.thumbnails > img {
+  height: 10vh;
+  width: auto;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 50pt;
+  color: crimson;
+}
+
+header {
+  border: 5px solid darkgoldenrod;
+  border-radius: 2rem;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  header {
+    justify-content: start;
+  }
+}
